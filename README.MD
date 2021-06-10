@@ -66,8 +66,8 @@ npm run test-chrome
 ### OBSERVAÇÃO PARTE 2 - API
 
 Como a API: http://54.174.86.218 não está disponivel. Não consegui executar os testes, e testar as chamadas coerentemente.
-Alguns pontos:
-1 - Criei uma pasta em "Cenários API" que consta 2 arquivos, um arquivo.feature e outro arquivo.spec.js
-2 - Criei o arquivo .feature, para demonstrar que seria possivel realizar cenários de API em BDD, contudo não fez sentido eu implementar por completo, pois nem teria como testar.
-3 - Criei o arquivo API_Parte2.spec.js para demonstrar de como seria minha lógica de programação em relação a testes de API, mas obviamente não consegui testar, sendo assim, pode constar algum erro de execução. 
-4- Em "desafio_qa_estrategia\cypress\integration" coloquei um arquivo TestAPI.spec.js que é um fluxo de testes de API, validando algunas chamadas de API Fake. Fiz isso como um plus somente pra rodar algo de testes de API.
+#### Alguns pontos:
+- Criei uma pasta em "Cenários API" que consta 2 arquivos, um arquivo.feature e outro arquivo.spec.js
+- Criei o arquivo .feature, para demonstrar que seria possivel realizar cenários de API em BDD, contudo não fez sentido eu implementar por completo, pois nem teria como testar.
+- Criei o arquivo API_Parte2.spec.js para demonstrar de como seria minha lógica de programação em relação a testes de API, mas obviamente não consegui testar, sendo assim, pode constar algum erro de execução. 
+- Em "desafio_qa_estrategia\cypress\integration" coloquei um arquivo TestAPI.spec.js que é um fluxo de testes de API, validando algunas chamadas de API Fake. Fiz isso como um plus somente pra rodar algo de testes de API.
