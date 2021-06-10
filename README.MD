@@ -47,7 +47,7 @@ cd desafio_qa_estrategia
 *2* - Instale as depedências do projeto para executá-lo:
 
 ```sh
-npm install
+npm install --save-dev cypress cypress-cucumber-preprocessor
 ```
 
 *3* - Execute o projeto:
