@@ -1,0 +1,11 @@
+{
+    "name": "desafio_qa_estrategia",
+    "version": "1.0.0",
+    "scripts": {
+        "test-chrome": "cypress run --browser chrome --no-exit",
+        "test": "cypress run"
+    },
+    "cypress-cucumber-preprocessor": {
+        "step_definitions": "cypress/support/steps"
+    }
+}

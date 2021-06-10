@@ -1,0 +1,30 @@
+# MELHORIAS
+
+1) Resultados de Busca na barra de pesquisa
+→  caso haja mais possibilidades de resultados, como mais cursos do que os 15 primeiros, mostre para o usuário a quantidade de cursos disponíveis, pois ele terá que ficar “carregando mais cursos” até ter todos.
+
+2) Na página Cursos por Professor, incluir filtro de professor
+→ Dado a quantidade de professores na lista, não seria interessante ter um filtro de professor? Imagine se eu quiser um professor X, tenho que rolando a lista até encontrar?
+
+3) Na página Cursos por Concurso, incluir outro tipos de categoria.
+→ Imagine um futuro aluno querer pesquisar concursos da área policial, saúde, fiscal e etc.
+
+4) Na página da Matéria, após filtrar Cursos por Matéria, manter somente os cursos.
+→ Manter somente os cursos disponíveis quando filtra cursos. Atualmente é apresentado possibilidades de assinaturas, mas assinaturas não são cursos.
+→ Evitar redundâncias, no nome “Assinatura Básica 1 ano – Cartão até 12x” e no preço “….em até 12x de $$”, veja bem, o usuário ao ler o nome já tem a informação que poderá parcelar a compra.
+→ Colocar valor integral do curso quando houver no nome “Cartão até 12x”, fica a sensação esquisita.
+
+5) Evitar ambiguidade de informação na página.
+
+- No rodapé, pode notar Cursos por Concurso em Suporte, mas não é necessário pois já há esta opção em Cursos Online Para Concursos, abaixo da barra de pesquisa.
+
+6) Evitar links indisponíveis ou não atualizados
+- No rodapé, pode notar “Trabalhe Conosco”, que redireciona para o Vagas.com, mas a página da empresa não está mais ativa. Sugiro redirecionar para: https://www.linkedin.com/company/estrategia-educacional/jobs/
+- No rodapé, atualizar “Eventos”. Não houve eventos pós Novembro 2015?
+- no rodapé, na opção “Audiobooks” apenas consta informação que o Estratégia Concursos disponibiliza a legislação em áudios, 
+e que pode fazer download ao clicar na seta que fica no canto superior direito de cada gravação para baixar. Não há nada mais. Usuário perdido neste momento. 
+vide imagem em: "desafio_qa_estrategia\imagens\audiobooks_melhoria.png"
+
+7) Atualizar a opção “Contato” para “Ajuda”, pois o usuário quando clica é redirecionado para central de ajuda.
+
+8) Adicionar seletores de identificação, como ID, nos elementos da tela para facilitar a automação de testes. Assim, evita a localização de elementos por xpath ou selector js.

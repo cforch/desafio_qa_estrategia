@@ -1,0 +1,64 @@
+# BUGS
+
+1) Resultado da Barra de Pesquisa diferente do buscado
+	a. Buscar por “polícia municipal”
+	b. Altere para Cursos
+	c. visualizar resultado como “Legislações Específicas p/ Polícia Federal(Delegado)...”
+    
+ É esperado, na visão de usuário, que retorna somente buscas por “Polícia Municipal”
+
+2) Dificuldade de entendimento de quantidade de resultado da pesquisa
+	Buscar algo na barra de pesquisa
+	b. Visualizar quantidade 15 de resultados encontrados “Pacotes”
+	c. Altere para Cursos
+	d. visualize quantidade 15 de resultados encontrados “Cursos”
+	e. visualize “Carregar mais cursos”	
+
+É esperado, na visão de usuário, que a aplicação já mostre a quantidade de resultado, ou seja, cursos disponíveis, mesmo que não esteja todos em tela. Exemplo: 15 de 233 encontrados.
+Duvida: o usuário tem que ficar carregando mais cursos até ter todos? Eu desistiria.
+
+3) Na página Cursos por Professor o botão “Todos os professores” não funciona
+    a) Na tela inicial, clique em Por professor
+    b) Na tela Cursos Por Professor, visualize o botão “Todos os professores”
+    c) Verifique que é um botão ao inspecionar o elemento, e não tem nenhum funcionamento.
+
+	É esperado que este botão tenha algum funcionamento para usuário. 
+
+4) Na página Cursos por Matéria o botão “Todas as matérias” não funciona.
+    a) Na tela inicial, clique em Por Matéria
+    b) Na tela Cursos Por Matéria, visualize o botão “Todas as matérias”
+    c) Verifique que é um botão ao inspecionar o elemento, e não tem nenhum funcionamento.
+
+	É esperado que este botão tenha algum funcionamento para usuário. 
+
+5) Quantidades diferentes de cursos disponíveis da página da lista de matérias e detalhes da matéria escolhida. 
+Vide, imagem em: "desafio_qa_estrategia\imagens\bug_qtd_cursos_materias_1.png" e "desafio_qa_estrategia\imagens\bug_qtd_cursos_materias_2.png"
+
+    a) Na tela inicial, clique em Por Matéria
+    b) Na tela Cursos por Matéria, visualize a quantidade de cursos disponíveis de uma matéria X.
+    c) Exemplo: Administração
+    d) Agora, clique em detalhes
+    e) Na tela da Matéria (Administração), visualize a quantidade de cursos disponíveis.
+
+Então, como deve ter percebido, primeiramente é transmitido de X cursos disponíveis da matéria, depois Y cursos disponíveis. 
+É esperado que contenha a mesma quantidade de cursos disponíveis nas duas páginas, pois se tratam da mesma matéria.
+Visto que assinaturas não são cursos.
+
+6) Informação inadequada na tela de cursos de uma matéria.
+
+    a) Na tela inicial, clique em Por Matéria
+    b) E clique em detalhes
+    c) Na tela da Matéria (Administração), visualize Nome e Preço.
+
+→ Existem Assinaturas que estão com preços assim:  “cursos em até 12x de $$$”
+Não confunda o usuário, assinatura não é curso. Sugiro retirar essa palavra “cursos”
+→ Em caso de Curso, está assim: “cursos em até ….” 
+Não confunda o usuário, um curso é singular. “cursos” é plural. Sugiro manter coerência.
+
+7) No menu superior direito, a opção Assinaturas não é botão.
+
+    a) Na tela inicial, no menu superior direito (visão do usuário) onde consta opções: Procuradorias, Assinaturas, Concursos, Juridicas, OAB. 
+    b) Visualize as opções de botão
+
+→ Opção Assinaturas não é botão. É esperado que fosse um botão que redirecionasse para as opções de assinaturas.
+
